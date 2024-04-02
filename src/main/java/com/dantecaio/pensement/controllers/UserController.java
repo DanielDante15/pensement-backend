@@ -14,7 +14,7 @@ import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("user")
 public class UserController {
 
     @Autowired
@@ -27,4 +27,5 @@ public class UserController {
         UriComponents uriComponents = uriComponentsBuilder.path("/user/{id}").buildAndExpand(userDataResponse.id());
         return ResponseEntity.created(uriComponents.toUri()).body(userDataResponse);
     }
+
 }
