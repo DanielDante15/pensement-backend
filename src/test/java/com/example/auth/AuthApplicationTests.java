@@ -1,10 +1,10 @@
-package com.dantecaio.pensement;
+package com.example.auth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PensementApplicationTests {
+class AuthApplicationTests {
 
 	@Test
 	void contextLoads() {
