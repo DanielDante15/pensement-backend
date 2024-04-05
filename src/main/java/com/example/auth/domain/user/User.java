@@ -28,7 +28,7 @@ public class User implements UserDetails {
     private String password;
 
 
-    public User(String email, String name,String password){
+    public User(String name,String email,String password){
         this.name = name;
         this.email = email;
         this.password = password;
@@ -45,21 +45,21 @@ public class User implements UserDetails {
 
     @Override
     public boolean isAccountNonExpired() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean isAccountNonLocked() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean isCredentialsNonExpired() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean isEnabled() {
-        return false;
+        return true;
     }
 }
