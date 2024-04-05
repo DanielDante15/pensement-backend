@@ -8,10 +8,10 @@
 		<version>3.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>auth</artifactId>
+	<groupId>com.dantecaio</groupId>
+	<artifactId>pensement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>auth</name>
+	<name>pensement</name>
 	<description>Demo auth app</description>
 	<properties>
 		<java.version>17</java.version>
