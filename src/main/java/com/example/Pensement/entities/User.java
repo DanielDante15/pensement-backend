@@ -1,6 +1,7 @@
-package com.example.auth.domain.user;
+package com.example.Pensement.entities;
 
 
+import com.example.Pensement.domain.dtos.user.UserResponseDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -27,12 +28,18 @@ public class User implements UserDetails {
     private String email;
     private String password;
 
-
     public User(String name,String email,String password){
         this.name = name;
         this.email = email;
         this.password = password;
     }
+
+    public User(UserResponseDTO userDTO, String password){
+        this.name = userDTO.name();
+        this.email = userDTO.email();
+        this.password = password;
+    }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return null;

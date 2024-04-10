@@ -1,7 +1,7 @@
-package com.example.auth.infra.security;
+package com.example.Pensement.infra.security;
 
 
-import com.example.auth.repositories.UserRepository;
+import com.example.Pensement.repositories.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

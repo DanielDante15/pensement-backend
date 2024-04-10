@@ -1,12 +1,11 @@
-package com.example.auth.domain.product;
+package com.example.Pensement.entities;
 
+import com.example.Pensement.domain.dtos.product.ProductRequestDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
-import java.math.BigInteger;
 
 @Table(name = "product")
 @Entity(name = "product")

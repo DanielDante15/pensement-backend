@@ -1,6 +1,6 @@
-package com.example.auth.repositories;
+package com.example.Pensement.repositories;
 
-import com.example.auth.domain.user.User;
+import com.example.Pensement.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 

@@ -1,9 +1,7 @@
-package com.example.auth.domain.product;
+package com.example.Pensement.domain.dtos.product;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-
-import java.math.BigInteger;
 
 public record ProductRequestDTO(
         @NotBlank

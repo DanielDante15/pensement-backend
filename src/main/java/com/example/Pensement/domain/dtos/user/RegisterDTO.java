@@ -1,4 +1,4 @@
-package com.example.auth.domain.user;
+package com.example.Pensement.domain.dtos.user;
 
 public record RegisterDTO(String name, String email,String password) {
 

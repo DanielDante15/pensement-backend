@@ -1,9 +1,9 @@
-package com.example.auth.controllers;
+package com.example.Pensement.controllers;
 
-import com.example.auth.domain.product.Product;
-import com.example.auth.domain.product.ProductRequestDTO;
-import com.example.auth.domain.product.ProductResponseDTO;
-import com.example.auth.repositories.ProductRepository;
+import com.example.Pensement.entities.Product;
+import com.example.Pensement.domain.dtos.product.ProductRequestDTO;
+import com.example.Pensement.domain.dtos.product.ProductResponseDTO;
+import com.example.Pensement.repositories.ProductRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
